@@ -1,0 +1,8 @@
+[submodule "MPAS-Model/landice/develop"]
+	path = MPAS-Model/landice/develop
+	url = https://github.com/MPAS-Dev/MPAS-Model.git
+	branch = landice/develop
+[submodule "MPAS-Model/ocean/develop"]
+	path = MPAS-Model/ocean/develop
+	url = https://github.com/MPAS-Dev/MPAS-Model.git
+	branch = ocean/develop

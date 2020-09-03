@@ -9,7 +9,7 @@
 # mode template, which typically would point to the namelist.landice generated in
 # default_inputs after a successful build of the model.
 [namelists]
-forward = FULL_PATH_TO_FORWARD_TEMPLATE_NAMELIST
+forward = MPAS-Model/landice/develop/namelist.landice
 
 
 # The streams section describes required streams file templates that are used to
@@ -17,14 +17,14 @@ forward = FULL_PATH_TO_FORWARD_TEMPLATE_NAMELIST
 # mode template, which generally points to the streams.landice generated in
 # default_inputs after a successful build of the model.
 [streams]
-forward = FULL_PATH_TO_FORWARD_TEMPLATE_STREAMS
+forward = MPAS-Model/landice/develop/streams.landice.forward
 
 # The executables section defines paths to required executables. These
 # executables are provided for use by specific test cases.
 # Full paths should be provided in order to access the executables from
 # anywhere on the machine.
 [executables]
-model = FULL_PATH_TO_MODEL
+model = MPAS-Model/landice/develop/landice_model
 mesh_converter = FULL_PATH_TO_MESH_CONVERTER
 cell_culler = FULL_PATH_TO_CELL_CULLER
 metis = FULL_PATH_TO_METIS
